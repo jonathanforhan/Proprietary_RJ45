@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/jon/OneDrive/School/EG/EG-498/Proprietary_RJ45/footprints")(options "")(descr ""))
+)
