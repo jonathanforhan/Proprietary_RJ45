@@ -2068,7 +2068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN8_SS-60000_STW"
+		(property "Footprint" "footprints:CONN8_SS-60000_STW"
 			(at 140.97 53.34 0)
 			(effects
 				(font
@@ -2078,7 +2078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/short/w0j1wq4d"
+		(property "Datasheet" "SS-60000-009"
 			(at 140.97 53.34 0)
 			(effects
 				(font
@@ -2228,7 +2228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN8_SS-60000_STW"
+		(property "Footprint" "footprints:CONN8_SS-60000_STW"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -2238,7 +2238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/short/w0j1wq4d"
+		(property "Datasheet" "SS-60000-009"
 			(at 114.3 53.34 0)
 			(effects
 				(font
