@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -75,7 +114,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerber/")
+			(outputdirectory "Proprietary_RJ45/")
 		)
 	)
 	(net 0 "")
@@ -95,7 +134,7 @@
 		(at 125.660401 101.510201 180)
 		(tags "436500227 ")
 		(property "Reference" "J2"
-			(at -1.5 0 180)
+			(at -1.5 4.010201 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4508cb81-ca50-4e4a-8a62-6d0d89c9c522")
@@ -673,7 +712,7 @@
 		(at 112.945 92.29805 -90)
 		(tags "SS-60000-009 ")
 		(property "Reference" "J1"
-			(at -3.57 -7.555 270)
+			(at -3.57 -7.805 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fe1ea2b9-7da1-4e9a-92db-b76ead71725b")
@@ -1045,7 +1084,7 @@
 		(at 142.055 85.20195 90)
 		(tags "SS-60000-009 ")
 		(property "Reference" "J3"
-			(at -3.29805 -7.555 90)
+			(at -3.29805 -7.805 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4d64aa30-d486-4778-9b8d-795905d49102")
@@ -1531,7 +1570,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left bottom)
 		)
@@ -1543,85 +1582,9 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
 			)
 			(justify left bottom)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.SilkS")
-		(uuid "135f7d29-97b4-421f-8b57-9cbbea9742a5")
-		(pts
-			(xy 96.5 71.5) (xy 158.5 71.5)
-		)
-		(height -4.5)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "62"
-			(at 127.5 65.9 0)
-			(layer "F.SilkS")
-			(uuid "135f7d29-97b4-421f-8b57-9cbbea9742a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.SilkS")
-		(uuid "86de8d9e-96fb-4fa8-b1c9-a100097c7962")
-		(pts
-			(xy 96.5 71.5) (xy 96.5 106)
-		)
-		(height -5.5)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "34.5"
-			(at 89.9 88.75 90)
-			(layer "F.SilkS")
-			(uuid "86de8d9e-96fb-4fa8-b1c9-a100097c7962")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
 		)
 	)
 	(segment
